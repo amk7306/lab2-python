@@ -23,7 +23,7 @@ def getLetterGrade(grade):
     return "B-"
   if 76<=grade and grade<80:
     return "C+"
-  if 70<=grade and grade<77:
+  if 70<=grade and grade<76:
     return "C"
   if 60<=grade and grade<70:
     return "D"
