@@ -8,7 +8,7 @@
 import main
 def getLetterGrade(grade):
   grade = float(grade)
-  grade = input("Enter your CMPSC 131 grade: ")
+  #grade = input("Enter your CMPSC 131 grade: ")
   if grade == 100:
     return "A+"
   if 93<=grade and grade<100: 
@@ -29,6 +29,6 @@ def getLetterGrade(grade):
     return "D"
   if  60 > grade: 
     return "F"
-  print(f"Your letter grade for CMPSC 131 is: {grade}")
+  #print(f"Your letter grade for CMPSC 131 is: {grade}")
 if __name__ == "__main__":
   getLetterGrade()
