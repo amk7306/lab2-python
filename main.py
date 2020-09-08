@@ -7,10 +7,10 @@
 
 import main
 def getLetterGrade(grade):
-  grade = round(grade)
+  grade = float(grade)
   if grade == 100:
     return "A+"
-  if  93<=grade and grade<100: 
+  if 93<=grade and grade<100: 
     return "A"
   if 90<=grade and grade<93:
     return "A-"
@@ -20,7 +20,7 @@ def getLetterGrade(grade):
     return "B"
   if 80<=grade and grade<83:
     return "B-"
-  if 77<=grade and grade<80:
+  if 76<=grade and grade<80:
     return "C+"
   if 70<=grade and grade<77:
     return "C"
