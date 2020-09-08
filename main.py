@@ -10,9 +10,7 @@ def run():
   g = getLetterGrade(grade) 
   print(f"Your letter grade for CMPSC 131 is {g}.")
 def getLetterGrade(grade):
-  if grade == 100:
-    return "A+"
-  elif 93<=grade and grade<100: 
+  if 93<=grade and grade>100: 
     return "A"
   elif 90<=grade and grade<93:
     return "A-"
