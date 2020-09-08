@@ -22,9 +22,9 @@ def getLetterGrade(grade):
     return "B"
   elif 80<=grade and grade<83:
     return "B-"
-  elif 76<=grade and grade<80:
+  elif 77<=grade and grade<80:
     return "C+"
-  elif 70<=grade and grade<76:
+  elif 70<=grade and grade<=77:
     return "C"
   elif 60<=grade and grade<70:
     return "D"
